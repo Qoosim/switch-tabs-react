@@ -3,7 +3,7 @@
 > This is a react application used as a practice to become better in react and tailwindcss.
 > The index of objects changes in the array of objects fetched from the end-point and display its contents when a tab is clicked 
 
-![screenshot](./src/images/meal_refactor.jpeg)
+![screenshot](./src/assets/tabs.jpeg)
 
 ## ⚒️  Built with
 
