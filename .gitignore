@@ -5,9 +5,9 @@
 /.pnp
 .pnp.js
 
+*.swp
 *.swn
 *.swo
-*.swp
 
 # testing
 /coverage
