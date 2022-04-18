@@ -44,7 +44,7 @@ const Contents = () => {
                 <button
                   key={tab.id}
                   onClick={() => setValue(index)}
-                  className="w-24 bg-transparent md:hover:border-l-2 md:hover:border-sky-400 md:hover:border-b-0 hover:text-sky-400 hover:border-b-2 hover:border-sky-400"
+                  className={`w-24 bg-transparent md:hover:border-l-2 md:hover:border-sky-400 md:hover:border-b-0 hover:text-sky-400 hover:border-b-2 hover:border-sky-400 ${index === value && 'text-sky-400 border-b-2 border-sky-400 md:border-l-2'}`}
                 >
                   {tab.company}
                 </button>
